@@ -10,9 +10,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <script src="<?php echo base_url(); ?>assets/modules/moment.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/js/stisla.js"></script>
   <script src="<?php echo base_url(); ?>assets/modules/prism/prism.js"></script>
+  
   <!-- JS Libraies -->
 <?php
-if ($this->uri->segment(1) ==  "" ) { ?>
+if ($this->uri->segment(1) ==  "Dashboard" ) { ?>
   <script src="<?php echo base_url(); ?>assets/modules/jquery.sparkline.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/modules/chart.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/modules/owlcarousel2/dist/owl.carousel.min.js"></script>

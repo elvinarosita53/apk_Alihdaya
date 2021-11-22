@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a href="<?php echo base_url(); ?>dist/index">Outsourcing</a>
           </div>
           <div class="sidebar-brand sidebar-brand-sm">
-            <a href="<?php echo base_url(); ?>Dashboard">St</a>
+            <a href="<?php echo base_url(); ?>Dashboard"></a>
           </div>
           <ul class="sidebar-menu">
             <li class="menu-header">Pengadaan Alih Daya</li>
@@ -20,20 +20,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <li class=" <?php echo $this->uri->segment(2) == ''  ? 'active' : ''; ?>">
               <a href="#" class="nav-link"><i class="fas fa-file"></i><span>Data Vendor</span></a>
             </li>
-            <li class="dropdown <?php echo $this->uri->segment(2) == '' || $this->uri->segment(2) == 'index' || $this->uri->segment(2) == 'index_0' ? 'active' : ''; ?>">
+    a
+            <li class="dropdown <?php echo $this->uri->segment(2) == 'direktorat' || $this->uri->segment(2) == 'index' || $this->uri->segment(2) == 'index_0' || $this->uri->segment(2) == 'index'|| $this->uri->segment(2) == 'index'|| $this->uri->segment(2) == 'index'? 'active' : ''; ?>">
               <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Master Data</span></a>
               <ul class="dropdown-menu">
-                <li class="<?php echo $this->uri->segment(2) == 'index_0' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/index_0">Direktorat</a></li>
+                <li class="<?php echo $this->uri->segment(2) == 'direktorat' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>Master_Data/direktorat">Direktorat</a></li>
                 <li class="<?php echo $this->uri->segment(2) == 'index_0' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/index_0">Kompartemen</a></li>
                 <li class="<?php echo $this->uri->segment(2) == 'index_0' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/index_0">Departemen</a></li>
+                <li class="<?php echo $this->uri->segment(2) == 'index_0' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/index_0">Data Kontrak</a></li>
+                <li class="<?php echo $this->uri->segment(2) == 'index_0' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/index_0">Kualifikasi Kerja</a></li>
+                <li class="<?php echo $this->uri->segment(2) == 'index_0' ? 'active' : ''; ?>"><a class="nav-link" href="<?php echo base_url(); ?>dist/index_0">Kontrak Perjanjian</a></li>
               </ul>
             </li>
-            <li class=" <?php echo $this->uri->segment(2) == ''  ? 'active' : ''; ?>">
-              <a href="#" class="nav-link"><i class="fas fa-file"></i><span>Data Kontrak</span></a>
-            </li>
-            <li class=" <?php echo $this->uri->segment(2) == ''  ? 'active' : ''; ?>">
-              <a href="#" class="nav-link"><i class="fas fa-file"></i><span>Kualifikasi kerja</span></a>
-            </li>
+            
             <li class=" <?php echo $this->uri->segment(2) == ''  ? 'active' : ''; ?>">
               <a href="#" class="nav-link"><i class="fas fa-file"></i><span>Diagram</span></a>
             </li>

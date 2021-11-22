@@ -7,9 +7,9 @@ class Outsourcing extends CI_Controller {
         $data['title']='Data Outsourcing';
         $this->load->view('page/Outsourcing/dataOutSourcing',$data);
     }
-    public function add_data(){
-        $data['title']='ADD Data';
-        $this->load->view('page/form-outsourcing',$data);
+    public function index1(){
+        $data['title']='Master data';
+        $this->load->view('page/Master_Data/direktorat',$data);
     }
     
 }

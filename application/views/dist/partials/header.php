@@ -18,8 +18,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/prism/prism.css">
   <!-- CSS Libraries -->
 <?php
-if ($this->uri->segment(1) == "dashboard") { ?>
-  
+if ($this->uri->segment(1) == "Dashboard") { ?>
+   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/jqvmap/dist/jqvmap.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/weather-icon/css/weather-icons.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/weather-icon/css/weather-icons-wind.min.css">
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/modules/summernote/summernote-bs4.css">
 <?php
 }elseif ($this->uri->segment(1)=="Outsourcing") {
 ?>
