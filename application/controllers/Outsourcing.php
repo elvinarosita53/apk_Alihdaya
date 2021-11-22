@@ -11,6 +11,7 @@ class Outsourcing extends CI_Controller {
         $data['title']='ADD Data';
         $this->load->view('page/form-outsourcing',$data);
     }
+    
 }
 
 ?>
