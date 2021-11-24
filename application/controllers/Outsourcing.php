@@ -7,11 +7,13 @@ class Outsourcing extends CI_Controller {
         $data['title']='Data Outsourcing';
         $this->load->view('page/Outsourcing/dataOutSourcing',$data);
     }
-    public function index1(){
-        $data['title']='Master data';
-        $this->load->view('page/Master_Data/direktorat',$data);
+}
+class Vendor extends CI_Controller {
+
+    public function index(){
+        $data['title']='Data Vendor';
+        $this->load->view('page/Data_Vendor/dataVendor',$data);
     }
     
 }
-
 ?>
