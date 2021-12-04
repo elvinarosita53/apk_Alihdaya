@@ -23,15 +23,36 @@ $this->load->view('dist/partials/header');
                                 <tr>
                                     <th class="text-center">
                                     <th>Aksi</th>
-                                    </th>
                                     <th>Nama Perusahaan</th>
                                     <th>Nama Pemilik</th>
                                     <th>Alamat Perusahaan</th>
                                     <th>Email</th>
                                     <th>Status Kontrak</th>
+                                    
                                 </tr>
                             </thead>
+                            <tr>
+                                <td>
+                                    <a class="btn btn-primary btn-action mr-1" data-toggle="tooltip" title="Edit"><i class="fas fa-pencil-alt"></i></a>
+                                    <a class="btn btn-danger btn-action" data-toggle="tooltip" title="Delete" data-confirm="Are You Sure?|This action can not be undone. Do you want to continue?" data-confirm-yes="alert('Deleted')"><i class="fas fa-trash"></i></a>
+                                </td>
+                                <td>Create a mobile app</td>
+                                <td class="align-middle">
+                                    <div class="progress" data-height="4" data-toggle="tooltip" title="100%">
+                                        <div class="progress-bar bg-success" data-width="100"></div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <img alt="image" src="<?php echo base_url(); ?>assets/img/avatar/avatar-5.png" class="rounded-circle" width="35" data-toggle="tooltip" title="Wildan Ahdian">
+                                </td>
+                                <td>2018-01-20</td>
+                                <td>
+                                    <div class="badge badge-success">Completed</div>
+                                </td>
+                                <td><a href="#" class="btn btn-secondary">Detail</a></td>
+                            </tr>
                             <tbody>
+
                             </tbody>
                         </table>
                     </div>
